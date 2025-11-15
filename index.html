@@ -13,9 +13,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-slate-800">
+<body class="bg-slate-800 pt-5">
 
-    <section class="max-w-md min-h-screen mx-auto py-6 bg-gray-200">
+    <section class="max-w-md min-h-screen mx-auto py-6 bg-gray-200 rounded-lg">
         <header>
             <nav class="flex justify-center items-center mt-10 ">
                 <div class="mt-10 relative flex justify-center items-center w-9/12 mb-10">
@@ -32,9 +32,9 @@
                     <form class="card-body">
                         <fieldset class="fieldset">
                             <label class="label font-bold">Phone:</label>
-                            <input id="ack-number" type="number" class="input" required placeholder="  Account Number (11 Digit)" />
+                            <input value="01234567890" id="ack-number" type="number" class="input" required placeholder="  Account Number (11 Digit)" />
                             <label class="label font-bold">PIN:</label>
-                            <input id="pin" type="text" class="input" required placeholder="  PIN" />
+                            <input value="1234" id="pin" type="text" class="input" required placeholder="  PIN" />
                             <div><a class="link link-hover font-bold text-gray-600">Forgot password?</a></div>
                             <button id="login-btn" class="btn btn-neutral mt-4 text-gray-600 font-bold ">Login</button>
                         </fieldset>
